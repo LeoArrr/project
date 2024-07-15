@@ -27,7 +27,7 @@ function playGame(userChoice) {
   }
   if (userWins === 3) {
     alert("Congratulations! You won 3 times. Access granted!");
-    window.location.href = "https://github.com/LeoArrr/project";
+    window.location.href = "step-1.html";
   } else if (computerWins === 3) {
     alert("Access Denied: You lost 3 times.");
     document.body.innerHTML = `<h1 id="access-denied">Access Denied: You lost 3 times.</h1>`;

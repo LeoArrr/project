@@ -35,7 +35,6 @@ function playGame(userChoice) {
   document.body.classList.add("access-denied-body");
 }
 
-// Add event listeners to the buttons
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".button-container a");
   buttons.forEach(function (button) {

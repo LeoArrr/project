@@ -71,3 +71,13 @@ const hints = {
 const topics = ["movies", "books", "music"];
 
 const shrugman = new Shrugman(words, hints, topics);
+
+let currentTopic = null;
+let curerentWord = null;
+
+function startGame(topic);{
+shrugman.startGame(topic);
+currentTopuc = topic;
+currentWord = shrugman.getRandomWord;
+displayWord();
+}
